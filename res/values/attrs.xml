@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <declare-styleable name="MlkView">
+    	<attr name="labelsColor" format="color"/>
+    	<attr name="labelsSize" format="dimension"/>
+    	<attr name="axisColor" format="color"/>
+    	<attr name="axisLeftMargin" format="dimension"/>
+    	<attr name="valueLabelsAmount" format="integer"/>
+    	<attr name="sidewayText" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="MlkBarsView">
+    	<attr name="barsFill" format="reference"/>
+    	<attr name="barsMargin" format="dimension"/>
+    </declare-styleable>
+    
+    <declare-styleable name="MlkLinesView">
+    	<attr name="linesColor" format="color"/>
+    	<attr name="gradientsTopColor" format="color"/>
+    	<attr name="gradientsBottomColor" format="color"/>
+    </declare-styleable>
+
+</resources>
